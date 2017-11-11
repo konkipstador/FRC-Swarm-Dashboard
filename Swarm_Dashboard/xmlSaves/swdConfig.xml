@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    This is the SWARM Dashboard example configuration file.
+    Keys are points that data is anchored to. This is made
+    so that both sides of the transfer process can identify
+    where data should go, and makes requesting data much
+    easier. Also included in the configuration files are the
+    X and Y coordinates of the label where the data should be
+    placed on the GUI. Altogether, the config file is to guide
+    the data from the RoboRio to the GUI and to provide an easy
+    way to store GUI layouts.
+-->
+
+<root>
+    <label id ="0">
+        <key>speed</key>
+        <x>-850</x>
+        <y>350</y>
+    </label>   
+    <label id ="1">
+        <key>Lid_Mode</key>
+        <x>-850</x>
+        <y>330</y>
+    </label> 
+    <label id ="2">
+        <key>Arduino_Connected?</key>
+        <x>-850</x>
+        <y>310</y>
+    </label>    
+     <label id ="3">
+        <key>Phase</key>
+        <x>-850</x>
+        <y>290</y>
+    </label>   
+</root>
